@@ -1,0 +1,51 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;                          /*16px = 100% = 1em*/
+}
+h2{
+  font-family: 'Montserrat', serif;
+  font-size: 2.5rem;
+}
+h3{
+  font-family: 'Montserrat', serif;
+}
+.TopContainer {
+  background-color: #ffb26b;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+  background-color: #f6dcbf;
+}
+.bottom-container {
+  background-color: #d5dbb3;
+
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.profile-pic{
+  height: 185px;
+  width:175px;
+  border-radius: 50%;
+}
+hr{
+  border-style:none;
+  border-top-style:dotted;
+  border-color:grey;
+  border-width:10px;
+  width:10%;
+}
